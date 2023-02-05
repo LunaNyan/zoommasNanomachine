@@ -41,7 +41,7 @@ def mainWork(delay, detMin, detMax, offset):
                         cnt += 1
                         raise ValueError
                     if catchLimit < 0:
-                        # 무한 캐칭을 방지하기 위한 안전장치
+                        # 무한 캐칭(Keqing아님ㅎ)을 방지하기 위한 안전장치
                         # 30번 이상 catch한 경우 스크립트를 강제 종료함
                         print("[Error] 이미지 매칭 부분 무한루프 발생")
                         im1.save("bug.png")
